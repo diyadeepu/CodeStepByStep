@@ -16,7 +16,7 @@
 #has_midpoint(21, 9, 58)
 #has_midpoint(2, 8, 16)
 
-def has_midpoint(a, b, c):
+def has_midpoint(a: int, b: int, c: int) -> bool:
     if a == b and b == c:
         return True
     if a == b and a != c or b == c and a != b or a == c and b != c:

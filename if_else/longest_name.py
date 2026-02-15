@@ -1,9 +1,8 @@
 # Write a function named longest_name that reads names typed by the user and 
 # prints the longest name (the name that contains the most characters) in the 
-# format shown below. Use the format shown below, which might result from a 
-# call of longest_name(4):
+# format shown below.
 
-def longest_name(n):
+def longest_name(n) -> None:
     num = -100
     for i in range(1, n+1):
         name = input("name #" + str(i) + "? ")

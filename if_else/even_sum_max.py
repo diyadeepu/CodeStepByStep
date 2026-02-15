@@ -2,7 +2,7 @@
 # and print the total even sum and maximum of the even numbers. You may assume
 # that the user types at least one non-negative even integer.
 
-def even_sum_max():
+def even_sum_max() -> None:
     num = int(input("how many integers? "))
     i = 0
     sum = 0
