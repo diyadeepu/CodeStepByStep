@@ -2,7 +2,7 @@
 # prints the longest name (the name that contains the most characters) in the 
 # format shown below.
 
-def longest_name(n) -> None:
+def longest_name(n: int) -> None:
     num = -100
     for i in range(1, n+1):
         name = input("name #" + str(i) + "? ")

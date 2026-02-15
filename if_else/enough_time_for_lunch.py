@@ -12,7 +12,7 @@
 # tomorrow. Note that the second time might be earlier than the first time; in 
 # such a case, your function should return False.
 
-def enough_time_for_lunch(hour1: int, min1: int, hour2: int, min2: int):
+def enough_time_for_lunch(hour1: int, min1: int, hour2: int, min2: int) -> bool:
     if (hour1 > hour2):
         return False
     elif (hour1 < (hour2 - 1)):
