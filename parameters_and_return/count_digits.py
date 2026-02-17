@@ -7,6 +7,6 @@ def count_digits(n: int) -> int:
     n = abs(n)
     count = 1
     if (n > 0):
-        n /=10
+        n = n//10
         count += 1
     return count
